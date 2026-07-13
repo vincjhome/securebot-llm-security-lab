@@ -1,0 +1,50 @@
+# OS / Python
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Local / tool workflow
+.claude/
+.cursor/
+.vscode/
+.idea/
+
+# Private workflow artifacts
+submission/
+grading/
+rubric/
+final_grade/
+portal/
+*.zip
+*_original.*
+
+# Logs / temp
+*.log
+tmp/
+temp/
+
+# Large/model artifacts
+models/
+checkpoints/
+model_exports/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.pkl
+
+# Local databases
+*.sqlite
+*.db
